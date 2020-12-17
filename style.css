@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html ,body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 1.7em;
+}
+
+a{
+    color: #333;
+    text-decoration: none;
+}
+h1, h2,h3{
+    padding: 10px,0;
+}
+
+p{
+    margin: 10px,0;
+}
+
+#navbar{
+    background: rgb(15, 80, 201);
+    color: #fff;
+    overflow: auto
+}
+
+.logo{
+    color: cornsilk;
+    padding: 8px;
+    float: left;
+}
+#navbar ul {
+    float: right;
+    padding: 10px;
+    list-style: none;
+}
+#navbar ul li{
+    float: left;
+    padding: 8px;
+}
+a{
+    color: cornsilk;
+}
+#navbar ul li:hover,.current{
+    color: rgb(171, 202, 231);
+    background-color: rgb(58, 80, 177);
+}
+#subjectheading{
+    padding: 10px;
+    text-align: center;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(100, 16, 179);
+    
+}
+.box{
+    display: block;
+    margin: 3.5px;
+    width: 16%;
+    height: 120px;
+    float: left;
+    background-color: rgb(219, 208, 80);
+}
+.box a{
+    color: #000;
+}
+#subject .box :hover{
+    color: rgb(87, 11, 187);
+    margin-top: 20PX;
+    
+}
